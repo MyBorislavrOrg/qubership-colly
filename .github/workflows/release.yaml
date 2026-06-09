@@ -206,7 +206,7 @@ jobs:
 
   github-release:
     needs: [charts-release]
-    uses: netcracker/qubership-workflow-hub/.github/workflows/release-drafter.yml@main
+    uses: myborislavrorg/qubership-workflow-hub/.github/workflows/release-drafter.yml@main
     with:
       version: ${{ inputs.release }}
       publish: true
